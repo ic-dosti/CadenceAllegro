@@ -1,0 +1,48 @@
+\t (00:00:00) pad_designer 16.6-2015 S069 (v16-6-112FN) Windows 32
+\t (00:00:00)     Journal start - Thu Sep 14 14:12:38 2017
+\t (00:00:00)         Host=VB-PAUL User=KurakovPV Pid=1736 CPUs=1
+\t (00:00:00) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:04) setwindow form.padedit
+\i (00:00:04) pse_open 
+\i (00:00:10) fillin "thobl040_140_d20.pad"
+\i (00:00:13) pse_save_as 
+\i (00:00:24) fillin "thobl140_040_d20.pad"
+\i (00:00:26) FORM padedit layers  
+\i (00:00:27) FORM padedit grid row begin_layer 
+\i (00:00:30) FORM padedit width 14.00 
+\i (00:00:32) FORM padedit height 4.00 
+\i (00:00:35) FORM padedit width_th 14.40 
+\i (00:00:36) FORM padedit height_th 4.40 
+\i (00:00:39) FORM padedit width_ant 14.40 
+\i (00:00:41) FORM padedit height_ant 4.40 
+\i (00:00:44) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:00:46) setwindow form.padcopy
+\i (00:00:46) FORM padcopy pse_copy_done  
+\i (00:00:49) setwindow form.padedit
+\i (00:00:49) FORM padedit grid row soldermask_top 
+\i (00:00:51) FORM padedit width 14.20 
+\i (00:00:53) FORM padedit height 4.20 
+\i (00:00:57) FORM padedit grid rpopup soldermask_top 'Copy to all' 
+\i (00:00:58) setwindow form.padcopy
+\i (00:00:58) FORM padcopy pse_copy_reg_layers NO 
+\i (00:00:59) FORM padcopy pse_copy_soldermask YES 
+\i (00:01:00) FORM padcopy pse_copy_done  
+\i (00:01:02) setwindow form.padedit
+\i (00:01:02) FORM padedit grid row begin_layer 
+\i (00:01:03) FORM padedit grid row default_internal 
+\i (00:01:03) FORM padedit grid row begin_layer 
+\i (00:01:04) FORM padedit grid row default_internal 
+\i (00:01:04) FORM padedit grid row end_layer 
+\i (00:01:05) FORM padedit grid row soldermask_top 
+\i (00:01:05) FORM padedit grid row soldermask_bottom 
+\i (00:01:06) FORM padedit grid row pastemask_top 
+\i (00:01:07) FORM padedit parameters  
+\i (00:01:12) FORM padedit multi_drill_rows 1 
+\i (00:01:14) FORM padedit multi_drill_cols 3 
+\i (00:01:21) FORM padedit multi_drill_clearance_x 3.08 
+\i (00:01:23) FORM padedit multi_drill_clearance_y 0 
+\i (00:01:28) pse_save 
+\i (00:01:30) fillin yes 
+\i (00:01:32) pse_exit
+\t (00:01:32)     Journal end - Thu Sep 14 14:14:10 2017

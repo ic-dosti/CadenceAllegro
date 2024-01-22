@@ -1,0 +1,299 @@
+\t (00:01:39) allegro 17.2 S050 Linux SPB 64-bit Edition
+\t (00:01:39)     Journal start - Thu Apr 18 16:33:13 2019
+\t (00:01:39)         Host=Paul User=kurakovpv Pid=7903 CPUs=4
+\t (00:01:39) CmdLine= /home/CAD/Cadence/tools/bin/allegro.exe
+\t (00:01:39) 
+\t (00:01:39) Starting new design...
+\i (00:01:39) trapsize 269
+\i (00:01:39) trapsize 278
+\i (00:01:39) trapsize 269
+\i (00:01:39) trapsize 322
+\i (00:01:39) trapsize 322
+\i (00:01:39) trapsize 339
+\i (00:01:39) package symbol wizard 
+   (00:01:55) Loading cmds.cxt 
+\i (00:01:55) setwindow form.sym_wizard
+\i (00:01:55) FORM sym_wizard soic YES 
+\i (00:01:55) FORM sym_wizard wiz_next  
+\i (00:01:57) FORM sym_wizard load_template  
+\t (00:01:57) Opening existing design...
+\t (00:01:58) Grids are drawn 400, 400 apart for enhanced viewing.
+\t (00:01:58) Grids are drawn 200, 200 apart for enhanced viewing.
+\i (00:01:58) setwindow pcb
+\i (00:01:58) trapsize 219
+\i (00:01:58) trapsize 227
+\i (00:01:58) trapsize 219
+\t (00:01:58) Grids are drawn 400, 400 apart for enhanced viewing.
+\i (00:01:58) trapsize 267
+\d (00:01:58) Design opened: /home/CAD/Cadence/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:01:59) setwindow form.sym_wizard
+\i (00:01:59) FORM sym_wizard wiz_next  
+\i (00:02:00) FORM sym_wizard pack_units Millimeter 
+\i (00:02:02) FORM sym_wizard pack_precision 2 
+\i (00:02:04) FORM sym_wizard pack_units_create Millimeter 
+\i (00:02:06) FORM sym_wizard pack_precision_create 2 
+\i (00:02:08) FORM sym_wizard ref_des D* 
+\i (00:02:08) FORM sym_wizard wiz_next  
+\i (00:02:14) FORM sym_wizard sop_pin_count 8 
+\i (00:02:17) FORM sym_wizard sop_e 1.25 
+\i (00:02:25) FORM sym_wizard sop_e1 2.20 
+\i (00:02:32) FORM sym_wizard sop_width 3.00 
+\i (00:02:46) FORM sym_wizard sop_len 5.00 
+\i (00:02:46) FORM sym_wizard wiz_next  
+\i (00:02:48) FORM sym_wizard default_pad_browse  
+\i (00:03:46) fillin "Smrec010_006"
+\i (00:03:49) FORM sym_wizard wiz_next  
+\i (00:03:51) FORM sym_wizard origin_at_pin1 YES 
+\i (00:03:51) FORM sym_wizard dont_gen_sym YES 
+\i (00:03:52) FORM sym_wizard wiz_next  
+\i (00:03:54) FORM sym_wizard wiz_finish  
+\w (00:03:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:03:54) Grids are drawn 10.16, 10.16 apart for enhanced viewing.
+\i (00:03:54) setwindow pcb
+\i (00:03:54) trapsize 679
+\t (00:03:54) Performing DRC...
+\t (00:03:54) No DRC errors detected.
+\i (00:03:54) trapsize 679
+\i (00:03:54) trapsize 96
+\i (00:03:54) trapsize 13
+\i (00:03:54) trapsize 12
+\i (00:03:56) roam start
+\i (00:03:56) roam end
+\t (00:03:56) Pick to complete the window.
+\i (00:03:58) prepopup 6.31 1.37
+\i (00:03:58) cancel 
+\i (00:04:03) script 
+\i (00:04:07) fillin "TextSizes17"
+\i (00:04:10) roam start
+\i (00:04:10) roam end
+\i (00:04:15) prmed 
+\i (00:04:17) setwindow form.prmedit
+\i (00:04:17) FORM prmedit text  
+\i (00:04:21) setwindow pcb
+\i (00:04:21) script 
+\i (00:04:23) fillin "menu_cancel"
+\i (00:04:26) fillin "TextSizes17"
+\i (00:04:33) pick grid 6.42 -4.57
+\t (00:04:33) last pick:  7.62 -5.08
+\i (00:04:34) setwindow form.prmedit
+\i (00:04:34) FORM prmedit done  
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom out 5.10 -1.90
+\i (00:04:36) trapsize 12
+\i (00:04:37) zoom out 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom out 5.10 -1.90
+\i (00:04:37) trapsize 12
+\i (00:04:37) zoom out 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom out 5.10 -1.90
+\i (00:04:37) trapsize 12
+\i (00:04:38) zoom previous 
+\i (00:04:38) trapsize 12
+\i (00:04:39) zoom selection 
+\i (00:04:39) redraw 
+\i (00:04:47) define grid 
+\t (00:04:47) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:04:51) setwindow form.grid
+\i (00:04:51) FORM grid non_etch non_etch_x_grids 0.05 
+\i (00:04:52) FORM grid non_etch non_etch_y_grids 0.05 
+\i (00:04:58) FORM grid all_etch all_etch_x_grids '0.05 0.05 0.05 0.05 0.05' 
+\i (00:05:00) FORM grid all_etch all_etch_y_grids '0.05 0.05 0.05 0.05 0.05' 
+\i (00:05:00) FORM grid done  
+\t (00:05:00) Grids are drawn 0.10, 0.10 apart for enhanced viewing.
+\i (00:05:03) setwindow pcb
+\i (00:05:03) zoom in 
+\i (00:05:03) setwindow pcb
+\i (00:05:03) zoom in 5.10 -1.90
+\i (00:05:03) trapsize 6
+\i (00:05:04) zoom in 
+\i (00:05:04) setwindow pcb
+\i (00:05:04) zoom in 4.80 -1.90
+\i (00:05:04) trapsize 3
+\i (00:05:04) zoom in 
+\i (00:05:04) setwindow pcb
+\i (00:05:04) zoom in 4.80 -1.90
+\i (00:05:04) trapsize 1
+\i (00:05:05) zoom fit 
+\i (00:05:05) trapsize 4
+\i (00:05:07) zoom out 
+\i (00:05:07) setwindow pcb
+\i (00:05:07) zoom out 2.10 -1.89
+\i (00:05:07) trapsize 8
+\i (00:05:13) prmed 
+\i (00:05:16) script 
+\i (00:05:19) fillin "TextSizes17"
+\i (00:05:25) script 
+\i (00:05:32) setwindow form.prmedit
+\i (00:05:32) FORM prmedit design  
+\i (00:05:33) FORM prmedit text  
+\i (00:05:34) FORM prmedit text_setup_button  
+\i (00:05:42) setwindow form.textblock
+\i (00:05:42) FORM textblock cancel  
+\i (00:05:42) setwindow pcb
+\i (00:05:42) pick grid 3.88 -1.55
+\t (00:05:42) last pick:  3.90 -1.55
+\i (00:05:44) zoom fit 
+\i (00:05:44) trapsize 4
+\i (00:05:49) script 
+\i (00:05:52) fillin "TextSizes"
+\i (00:05:56) pick grid 3.26 -2.37
+\t (00:05:56) last pick:  3.25 -2.35
+\i (00:06:01) script 
+\i (00:06:04) fillin "menu_cancel"
+\i (00:06:08) fillin "TextSizes17"
+\i (00:06:20) setwindow form.prmedit
+\i (00:06:20) FORM prmedit text_setup_button  
+\i (00:06:24) setwindow form.textblock
+\i (00:06:24) FORM textblock cancel  
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom fit 
+\i (00:06:28) trapsize 4
+\i (00:06:29) zoom in 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom in 2.10 -1.89
+\i (00:06:29) trapsize 2
+\i (00:06:29) zoom out 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom out 2.10 -1.89
+\i (00:06:29) trapsize 4
+\i (00:07:41) setwindow form.prmedit
+\i (00:07:41) FORM prmedit done  
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom out 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom out 2.13 -1.88
+\i (00:07:44) trapsize 8
+\i (00:07:45) zoom in 
+\i (00:07:45) setwindow pcb
+\i (00:07:45) zoom in 2.12 -1.88
+\i (00:07:45) trapsize 4
+\i (00:07:48) script 
+\i (00:07:52) fillin "TextSizes17"
+\i (00:07:57) zoom out 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out 2.13 -1.88
+\i (00:07:57) trapsize 8
+\i (00:07:58) zoom in 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 2.12 -1.88
+\i (00:07:58) trapsize 4
+\i (00:08:11) script 
+\e (00:08:13) Need to specify a filename
+\i (00:08:19) fillin "TextSizes17"
+\i (00:08:27) setwindow pcb
+\i (00:08:27) trapsize 4
+\i (00:08:31) prmed 
+\i (00:08:33) setwindow form.prmedit
+\i (00:08:33) FORM prmedit text_setup_button  
+\i (00:08:36) setwindow form.textblock
+\i (00:08:36) FORM textblock done  
+\i (00:08:38) setwindow form.prmedit
+\i (00:08:38) FORM prmedit done  
+\i (00:08:42) setwindow pcb
+\i (00:08:42) script 
+\i (00:11:05) save 
+\i (00:11:07) fillin yes 
+\t (00:11:08) Symbol 'ms5611__ba03.psm' created.
+\i (00:11:10) script 
+\i (00:11:13) fillin "TextSizes17"
+\i (00:11:19) zoom out 
+\i (00:11:19) setwindow pcb
+\i (00:11:19) zoom out 2.14 -1.87
+\i (00:11:19) trapsize 8
+\i (00:11:20) zoom in 
+\i (00:11:20) setwindow pcb
+\i (00:11:20) zoom in 2.14 -1.87
+\i (00:11:20) trapsize 4
+\i (00:11:41) script 
+\i (00:11:45) fillin "TextSizes171"
+\i (00:11:47) setwindow pcb
+\i (00:11:47) trapsize 4
+\i (00:11:53) prmed 
+\i (00:11:55) trapsize 7
+\i (00:11:57) setwindow form.prmedit
+\i (00:11:57) FORM prmedit text_setup_button  
+\i (00:12:14) setwindow form.textblock
+\i (00:12:14) FORM textblock 1 width 0.20 
+\i (00:12:17) FORM textblock 1 height 0.45 
+\i (00:12:22) FORM textblock 1 line_spacing 0.30 
+\i (00:12:31) FORM textblock 1 character_spacing 0.02 
+\i (00:12:34) FORM textblock 2 width 0.40 
+\i (00:12:37) FORM textblock 2 height 0.90 
+\i (00:12:44) FORM textblock 2 line_spacing 0.60 
+\i (00:12:47) FORM textblock 2 character_spacing 0.04 
+\i (00:12:52) FORM textblock 3 width 0.60 
+\i (00:12:59) FORM textblock 3 height 1.35 
+\i (00:13:09) FORM textblock 3 line_spacing 0.90 
+\i (00:13:13) FORM textblock 3 character_spacing 0.06 
+\i (00:13:24) FORM textblock 4 width 0.80 
+\i (00:13:31) FORM textblock 4 height 1.80 
+\i (00:13:40) FORM textblock 4 line_spacing 1.20 
+\i (00:13:47) FORM textblock 4 character_spacing 0.08 
+\i (00:13:51) FORM textblock 5 width 1.00 
+\i (00:13:57) FORM textblock 5 height 2.25 
+\i (00:14:05) FORM textblock 5 line_spacing 1.50 
+\i (00:14:11) FORM textblock 5 character_spacing 0.10 
+\i (00:14:13) FORM textblock done  
+\i (00:14:14) setwindow pcb
+\i (00:14:14) trapsize 4
+\i (00:14:16) setwindow form.prmedit
+\i (00:14:16) FORM prmedit done  
+\i (00:14:24) setwindow pcb
+\i (00:14:24) script 
+\i (00:14:29) fillin "TextSizes171"
+\i (00:15:01) fillin "TextSizes171"
+\i (00:15:06) zoom out 
+\i (00:15:06) setwindow pcb
+\i (00:15:06) zoom out 2.16 -1.85
+\i (00:15:06) trapsize 8
+\i (00:15:06) zoom out 
+\i (00:15:06) setwindow pcb
+\i (00:15:06) zoom out 2.15 -1.85
+\i (00:15:06) trapsize 12
+\i (00:15:07) zoom in 
+\i (00:15:07) setwindow pcb
+\i (00:15:07) zoom in 5.10 -1.90
+\i (00:15:07) trapsize 6
+\i (00:15:08) zoom fit 
+\i (00:15:08) trapsize 4
+\t (00:15:22) Pick to complete the window.
+\i (00:15:23) prepopup 1.98 -2.08
+\i (00:15:24) cancel 
+\i (00:15:25) zoom out 
+\i (00:15:25) setwindow pcb
+\i (00:15:25) zoom out 1.60 -1.89
+\i (00:15:25) trapsize 8
+\i (00:15:27) zoom in 
+\i (00:15:27) setwindow pcb
+\i (00:15:27) zoom in 1.60 -1.89
+\i (00:15:27) trapsize 4
+\i (00:15:28) roam start
+\i (00:15:29) roam end
+\i (00:15:29) roam start
+\i (00:15:30) roam x -272
+\i (00:15:30) roam y 16
+\i (00:15:30) roam end
+\i (00:15:32) zoom in 
+\i (00:15:32) setwindow pcb
+\i (00:15:32) zoom in -0.57 -2.02
+\i (00:15:32) trapsize 2
+\t (00:15:37) Performing autosave...
+\t (00:15:37) Autosave successful
+\i (00:15:37) roam start
+\i (00:15:37) roam x 80
+\i (00:15:37) roam y -96
+\i (00:15:38) roam x 64
+\i (00:15:38) roam y -48
+\i (00:15:38) roam end
+\i (00:15:39) roam start
+\i (00:15:39) roam x 160
+\i (00:15:39) roam y -416
+\i (00:15:39) roam end
+\i (00:15:41) save 
+\i (00:15:42) fillin yes 
+\t (00:15:42) Symbol 'ms5611__ba03.psm' created.
+\i (00:15:43) exit 
+\t (00:15:44)     Journal end - Thu Apr 18 16:47:18 2019

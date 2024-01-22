@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MF-R010.dra                                   )
+(    Software Version : 16.6-2015S073                                 )
+(    Date/Time        : Tue Feb 21 15:25:29 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /home/gentoo/Work/Library/Allegro/PSM/Misc
+    Name      = mf-r010.psm
+    User      = kurakovpv
+    Machine   = Paul
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

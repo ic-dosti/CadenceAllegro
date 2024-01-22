@@ -1,0 +1,17 @@
+\t (00:01:07) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:01:07)     Journal start - Tue Jul 18 11:51:17 2017
+\t (00:01:07)         Host=VB-PAUL User=KurakovPV Pid=896 CPUs=1
+\t (00:01:07) 
+   (00:01:09) *Error* load: can't access file - "C:\\Cadence\\SPB_Data\\pcbenv\\DstCxi.il"
+\t (00:01:10) Opening existing design...
+\d (00:01:10) Database opened: E:/Work/Library/Allegro/PSM/Coils/MSS1583.dra
+\t (00:01:10) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:01:10) trapsize 16
+\i (00:01:11) trapsize 15
+\i (00:01:11) trapsize 16
+\i (00:01:11) trapsize 15
+\i (00:01:11) trapsize 11
+\i (00:01:11) trapsize 15
+\i (00:01:12) generaledit 
+\i (00:01:18) exit 
+\t (00:01:18)     Journal end - Tue Jul 18 11:51:29 2017

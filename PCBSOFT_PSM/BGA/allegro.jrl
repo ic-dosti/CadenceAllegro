@@ -1,0 +1,44 @@
+\t (00:00:51) allegro 17.2 S050 Linux SPB 64-bit Edition
+\t (00:00:51)     Journal start - Mon Feb 11 17:28:12 2019
+\t (00:00:51)         Host=Paul User=kurakovpv Pid=26421 CPUs=4
+\t (00:00:51) CmdLine= /home/CAD/Cadence/tools/bin/allegro.exe
+\t (00:00:51) 
+   (00:00:51) Loading axlcore.cxt 
+\t (00:00:51) Opening existing design...
+\d (00:00:51) Design opened: /home/gentoo/Work/Library/Allegro/PSM/BGA/MO318B-AAU-1-1517.dra
+\i (00:00:51) trapsize 30
+\t (00:00:51) Grids are drawn 0.50, 0.50 apart for enhanced viewing.
+\i (00:00:51) trapsize 31
+\i (00:00:51) trapsize 30
+\i (00:00:51) trapsize 20
+\i (00:00:51) trapsize 20
+\i (00:00:51) shapeedit 
+\i (00:01:14) package_height 
+\t (00:01:14) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
+\i (00:01:23) pick grid -16.94 19.70
+\t (00:01:23) last pick:  -16.95 19.70
+\i (00:01:26) setwindow form.mini
+\i (00:01:26) FORM mini height_min 0 
+\i (00:01:27) FORM mini height_max 4 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) prepopup -1.69 8.65
+\i (00:01:28) done 
+\i (00:01:28) shapeedit 
+\i (00:03:10) prepopup -21.34 15.33
+\i (00:03:13) show element 
+\i (00:03:15) pick grid -19.46 14.23
+\t (00:03:15) last pick:  -19.45 14.25
+\i (00:03:17) setwindow text
+\i (00:03:17) close
+\i (00:03:18) prepopup -22.72 14.43
+\i (00:03:18) done 
+\i (00:03:18) shapeedit 
+\i (00:03:20) zoom fit 
+\t (00:03:20) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:03:20) trapsize 32
+\i (00:03:23) save 
+\i (00:03:24) fillin yes 
+\t (00:03:24) Symbol 'mo318b-aau-1-1517.psm' created.
+\i (00:03:24) shapeedit 
+\i (00:03:27) exit 
+\t (00:03:28)     Journal end - Mon Feb 11 17:30:49 2019

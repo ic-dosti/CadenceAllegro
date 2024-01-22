@@ -1,0 +1,64 @@
+\t (00:00:18) allegro 17.2 S060 Linux SPB 64-bit Edition
+\t (00:00:18)     Journal start - Thu May  7 02:29:02 2020
+\t (00:00:18)         Host=Paul User=kurakovpv Pid=26504 CPUs=4
+\t (00:00:18) CmdLine= /home/CAD/Cadence/tools/bin/allegro.exe
+\t (00:00:18) 
+   (00:00:19) Loading axlcore.cxt 
+\t (00:00:19) Opening existing design...
+\d (00:00:20) Design opened: /home/gentoo/Work/Library/Allegro/PSM/Capacitors/C051003.dra
+\i (00:00:21) trapsize 2
+\i (00:00:21) trapsize 1
+\i (00:00:21) trapsize 1
+\i (00:00:22) generaledit 
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 0.89 -0.01
+\i (00:00:24) trapsize 2
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 0.89 0.00
+\i (00:00:24) trapsize 4
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out 2.42 0.56
+\i (00:00:24) trapsize 4
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -0.31 0.44
+\i (00:00:25) trapsize 2
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -0.31 0.44
+\i (00:00:25) trapsize 1
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -0.31 0.44
+\i (00:00:25) trapsize 1
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in -0.31 0.45
+\i (00:00:25) trapsize 1
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -0.30 0.45
+\i (00:00:26) trapsize 1
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -0.30 0.45
+\i (00:00:26) trapsize 1
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out -0.28 0.46
+\i (00:00:26) trapsize 2
+\i (00:00:35) opencd /home/gentoo/tmp/GPS/allegro/9635001-2.brd 
+\t (00:00:39) Opening existing design...
+\i (00:00:44) fillin yes 
+\i (00:00:45) fillin yes 
+\t (00:00:46) Grids are drawn 1.00, 1.00 apart for enhanced viewing.
+\t (00:00:46) Grids are drawn 0.50, 0.50 apart for enhanced viewing.
+\i (00:00:46) trapsize 41
+\i (00:00:46) trapsize 43
+\t (00:00:46) Grids are drawn 4.00, 4.00 apart for enhanced viewing.
+\t (00:00:47) Grids are drawn 0.50, 0.50 apart for enhanced viewing.
+\i (00:00:47) trapsize 43
+\t (00:00:47)     Journal end - Thu May  7 02:29:31 2020

@@ -1,0 +1,18 @@
+\t (00:00:08) allegro 17.2 S060 Linux SPB 64-bit Edition
+\t (00:00:08)     Journal start - Wed Apr 22 18:59:43 2020
+\t (00:00:08)         Host=Paul User=kurakovpv Pid=12486 CPUs=4
+\t (00:00:08) CmdLine= /home/CAD/Cadence/tools/bin/allegro.exe
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: /home/gentoo/Work/Library/Allegro/PSM/Resonators/VB0K86.dra
+\t (00:00:09) Grids are drawn 0.10, 0.10 apart for enhanced viewing.
+\i (00:00:09) trapsize 11
+\i (00:00:09) trapsize 12
+\i (00:00:09) trapsize 9
+\t (00:00:09) Grids are drawn 0.10, 0.10 apart for enhanced viewing.
+\i (00:00:09) trapsize 12
+\i (00:00:09) generaledit 
+\i (00:01:18) new 
+\i (00:01:45) newdrawfillin "fls_smsq_011_qfn.dra" "Flash Symbol"
+\t (00:01:45)     Journal end - Wed Apr 22 19:01:20 2020

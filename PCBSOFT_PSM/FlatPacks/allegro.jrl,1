@@ -1,0 +1,22 @@
+\t (00:00:08) allegro 17.2 S060 Linux SPB 64-bit Edition
+\t (00:00:08)     Journal start - Tue Jun 23 12:34:27 2020
+\t (00:00:08)         Host=Paul User=kurakovpv Pid=111743 CPUs=4
+\t (00:00:08) CmdLine= /home/CAD/Cadence/tools/bin/allegro.exe
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: /home/gentoo/Work/Library/Allegro/PSM/FlatPacks/MS026D-ABC-HD.dra
+\i (00:00:09) trapsize 10
+\i (00:00:09) trapsize 8
+\i (00:00:09) trapsize 8
+\i (00:00:09) generaledit 
+\i (00:00:31) opencd /home/gentoo/tmp/Cust/Guram_010620/allegro/EMD_DE_HD_PAL2020_LED.brd 
+\t (00:00:34) Opening existing design...
+\t (00:00:34) Grids are drawn 4.00, 4.00 apart for enhanced viewing.
+\t (00:00:34) Grids are drawn 1.00, 1.00 apart for enhanced viewing.
+\i (00:00:34) trapsize 99
+\i (00:00:34) trapsize 101
+\t (00:00:34) Grids are drawn 16.00, 16.00 apart for enhanced viewing.
+\t (00:00:34) Grids are drawn 1.00, 1.00 apart for enhanced viewing.
+\i (00:00:34) trapsize 109
+\t (00:00:34)     Journal end - Tue Jun 23 12:34:54 2020

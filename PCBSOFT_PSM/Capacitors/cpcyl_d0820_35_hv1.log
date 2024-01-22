@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CPCYL_D0820_35_HV1.dra                        )
+(    Software Version : 16.6-2015S073                                 )
+(    Date/Time        : Mon Jun 26 17:25:18 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /home/gentoo/Work/Library/Allegro/PSM/Capacitors
+    Name      = cpcyl_d0820_35_hv1.psm
+    User      = kurakovpv
+    Machine   = Paul
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

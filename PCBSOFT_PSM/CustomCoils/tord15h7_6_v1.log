@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TORD15H7_6_V1.dra                             )
+(    Software Version : 16.6-2015S073                                 )
+(    Date/Time        : Wed Apr  5 13:58:24 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /home/gentoo/Work/Library/Allegro/PSM/CustomCoils
+    Name      = tord15h7_6_v1.psm
+    User      = kurakovpv
+    Machine   = Paul
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

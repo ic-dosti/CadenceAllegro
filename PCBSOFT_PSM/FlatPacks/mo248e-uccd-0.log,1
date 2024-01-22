@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MO248E-UCCD-0.dra                             )
+(    Software Version : 17.2S060                                      )
+(    Date/Time        : Wed Apr 22 19:09:28 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /home/gentoo/Work/Library/Allegro/PSM/FlatPacks
+    Name      = mo248e-uccd-0.psm
+    User      = kurakovpv
+    Machine   = Paul
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

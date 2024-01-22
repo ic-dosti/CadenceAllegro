@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : M80-88206.dra                                 )
+(    Software Version : 17.2S054                                      )
+(    Date/Time        : Wed May 22 19:32:15 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /home/gentoo/Work/Library/Allegro/PSM/Connectors
+    Name      = m80-88206.psm
+    User      = kurakovpv
+    Machine   = Paul
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

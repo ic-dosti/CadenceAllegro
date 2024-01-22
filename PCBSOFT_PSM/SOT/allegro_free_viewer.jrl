@@ -1,0 +1,19 @@
+\t (00:00:00) allegro_free_viewer 17.2 S045 Linux SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Nov 27 14:22:20 2018
+\t (00:00:00)         Host=Paul User=kurakovpv Pid=9377 CPUs=4
+\t (00:00:00) CmdLine= /home/CAD/Cadence/tools/bin/allegro_free_viewer.exe
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:01) trapsize 268
+\i (00:00:01) trapsize 259
+\i (00:00:01) trapsize 268
+\i (00:00:01) trapsize 214
+\i (00:00:01) trapsize 267
+\i (00:00:03) trapsize 411
+\i (00:00:04) trapsize 280
+\i (00:00:05) open 
+\i (00:00:18) fillin "/home/gentoo/Work/Library/Allegro/PSM/RF/FG873.dra"
+\i (00:00:18) cd "/home/gentoo/Work/Library/Allegro/PSM/RF"
+\t (00:00:18) Opening existing design...
+\i (00:00:18) trapsize 33
+\t (00:00:18)     Journal end - Tue Nov 27 14:22:38 2018

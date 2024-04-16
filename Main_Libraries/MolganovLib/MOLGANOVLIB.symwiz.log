@@ -1,0 +1,8 @@
+STATUS: PSpice Model Import Wizard for "Capture" (23.1.0.d001)
+STATUS:  
+   INFO: OLB driven flow
+   INFO: Input File: D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\MOLGANOVLIB.OLB
+   INFO: Symbol Name: CC2541
+  ERROR: Active base model library not configured.
+Select a library to pick base models from.
+STATUS: 1 Error messages, 0 Warning messages

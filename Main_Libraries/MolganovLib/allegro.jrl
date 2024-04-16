@@ -1,0 +1,56 @@
+\t (00:01:18) allegro 23.1 S003 Windows SPB 64-bit Edition
+\t (00:01:18)     Journal start - Tue Apr 16 19:12:50 2024
+\t (00:01:18)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=16860 CPUs=12
+\t (00:01:18) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
+\t (00:01:18) 
+\t (00:01:18) Starting new design...
+\i (00:01:19) trapsize 10592
+\i (00:01:19) trapsize 10901
+\i (00:01:19) trapsize 10592
+\i (00:01:20) trapsize 13429
+\i (00:01:20) trapsize 13429
+\i (00:01:20) package symbol wizard 
+   (00:01:20) Loading cmds.cxt 
+\i (00:01:20) trapsize 12780
+\i (00:01:24) setwindow form.sym_wizard
+\i (00:01:24) FORM sym_wizard soic YES 
+\i (00:01:25) FORM sym_wizard plcc YES 
+\i (00:01:26) FORM sym_wizard bga YES 
+\i (00:01:27) FORM sym_wizard rca_th YES 
+\i (00:01:28) FORM sym_wizard rca_smd YES 
+\i (00:01:28) FORM sym_wizard sip YES 
+\i (00:01:29) FORM sym_wizard zip YES 
+\i (00:01:30) FORM sym_wizard rf_symbol YES 
+\i (00:01:32) FORM sym_wizard soic YES 
+\i (00:01:33) FORM sym_wizard wiz_next  
+\i (00:01:35) FORM sym_wizard use_custom_template YES 
+\i (00:01:36) FORM sym_wizard no_custom_template YES 
+\i (00:01:37) FORM sym_wizard use_custom_template YES 
+\i (00:01:38) FORM sym_wizard no_custom_template YES 
+\i (00:01:39) FORM sym_wizard use_custom_template YES 
+\i (00:01:39) FORM sym_wizard no_custom_template YES 
+\i (00:01:42) FORM sym_wizard wiz_next  
+\i (00:01:44) fillin confirm
+\i (00:01:45) FORM sym_wizard use_custom_template YES 
+\i (00:01:47) FORM sym_wizard template_browse  
+\i (00:01:49) fillin "menu_cancel"
+\i (00:01:50) FORM sym_wizard no_custom_template YES 
+\i (00:01:51) FORM sym_wizard wiz_next  
+\i (00:01:54) fillin confirm
+\i (00:02:00) FORM sym_wizard wiz_next  
+\i (00:02:00) fillin confirm
+\i (00:02:01) FORM sym_wizard help  
+\e (00:02:54) WARNING (HELPAPI-041): Failed to launch Doc Assistant because port communication could not be established. Close all instances of Doc Assistant and rerun the operation. If the problem persists, contact your IT team to unblock the communication ports. For further assistance, contact Cadence Customer Support.
+\i (00:03:26) fillin confirm
+\i (00:10:38) FORM sym_wizard cancel  
+\t (00:10:38) Starting new design...
+\i (00:10:39) setwindow pcb
+\i (00:10:39) trapsize 10592
+\i (00:10:39) trapsize 10901
+\i (00:10:39) trapsize 10592
+\i (00:10:39) trapsize 13429
+\i (00:10:39) trapsize 13429
+\i (00:10:40) trapsize 12780
+\i (00:10:40) generaledit 
+\i (00:10:40) exit 
+\t (00:10:41)     Journal end - Tue Apr 16 19:22:12 2024

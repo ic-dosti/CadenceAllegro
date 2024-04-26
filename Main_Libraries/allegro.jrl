@@ -1,0 +1,19 @@
+\t (00:00:08) allegro 23.1 S003 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Thu Apr 25 08:25:44 2024
+\t (00:00:08)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=14836 CPUs=12
+\t (00:00:08) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
+\t (00:00:08) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:09) Starting new design...
+\i (00:00:10) trapsize 6604
+\t (00:00:10) Loading NV GPU Plugin
+\i (00:00:10) generaledit 
+\i (00:00:19) open 
+\i (00:00:30) fillin "D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/mps-3.brd"
+\i (00:00:30) cd "D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro"
+\i (00:00:30) trapsize 1765
+\i (00:00:30) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:00:30) Opening existing design...
+\i (00:00:31) trapsize 21986
+\t (00:00:31) > Sending response DoneOpenBoard
+\t (00:00:31)     Journal end - Thu Apr 25 08:26:06 2024

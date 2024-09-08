@@ -1,0 +1,420 @@
+\t (00:16:06) allegro 23.1 S005 Windows SPB 64-bit Edition
+\t (00:16:06)     Journal start - Wed Jul 24 22:31:25 2024
+\t (00:16:06)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=15400 CPUs=12
+\t (00:16:06) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
+\t (00:16:06) 
+\d (00:16:06) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/217614652.dra
+\i (00:16:06) trapsize 2985
+\i (00:16:06) generaledit 
+\i (00:16:17) drag_start grid -15.8668 -4.4988
+\i (00:16:17) move 
+\t (00:16:17) last pick:  -16.3250 -4.3000
+\t (00:16:17) Pick new location for the element(s).
+\i (00:16:21) drag_stop grid -35.4452 6.7827
+\i (00:16:21) generaledit 
+\i (00:16:25) zoom in 1 
+\i (00:16:25) setwindow pcb
+\i (00:16:25) zoom in -37.0569 6.0067
+\i (00:16:25) trapsize 1492
+\i (00:16:27) prepopup -35.1467 7.6482
+\i (00:16:32) pop dyn_option_select '@:@Property edit' 
+\i (00:16:32) property edit 
+\i (00:16:37) setwindow form.editprop1
+\i (00:16:37) FORM editprop1 cancel  
+\i (00:16:37) setwindow pcb
+\i (00:16:37) generaledit 
+\i (00:16:42) pick grid -38.5193 4.2459
+\t (00:16:42) last pick:  -38.1000 5.0800
+\i (00:16:45) roam y -96 
+\i (00:16:45) roam y -96
+\i (00:16:45) roam x 96 
+\i (00:16:45) roam x 96
+\i (00:16:46) roam x 96 
+\i (00:16:46) roam x 96
+\i (00:16:46) roam x 96 
+\i (00:16:46) roam x 96
+\i (00:16:46) roam y -96 
+\i (00:16:46) roam y -96
+\i (00:25:35) drag_start grid -35.9522 6.8159
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:37) roam x 16
+\i (00:25:39) drag_stop 0.7573 6.2489
+\i (00:25:41) prepopup -1.9288 6.1593
+\i (00:25:43) pop dyn_option_select @:@Delete 
+\i (00:25:43) delete 
+\i (00:25:43) generaledit 
+\i (00:25:45) roam x -96 
+\i (00:25:45) roam x -96
+\i (00:25:45) roam x -96 
+\i (00:25:45) roam x -96
+\i (00:25:45) roam x -96 
+\i (00:25:45) roam x -96
+\i (00:25:47) drag_start grid -35.0867 3.4434
+\i (00:25:50) roam x 16
+\i (00:25:50) roam x 16
+\i (00:25:50) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:51) roam x 16
+\i (00:25:53) drag_stop 1.8914 3.5330
+\i (00:25:57) prepopup -0.7051 3.3539
+\i (00:25:59) pop dyn_option_select @:@Delete 
+\i (00:25:59) delete 
+\i (00:25:59) generaledit 
+\i (00:26:02) drag_start grid 1.8317 1.2349
+\i (00:26:02) move 
+\t (00:26:02) last pick:  0.0000 0.0000
+\t (00:26:02) Pick new location for the element(s).
+\i (00:26:04) drag_stop grid -2.5555 1.2349
+\i (00:26:04) generaledit 
+\i (00:26:05) undo 
+\i (00:26:05) trapsize 1492
+\i (00:26:05) generaledit 
+\i (00:26:06) pick grid 1.8616 -1.5109
+\t (00:26:06) last pick:  2.5400 -2.5400
+\i (00:26:08) drag_start grid 2.2197 0.8469
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:12) roam x -16
+\i (00:26:13) drag_stop -34.9972 1.4140
+\i (00:26:15) prepopup -33.8332 1.2647
+\i (00:26:17) pop dyn_option_select @:@Delete 
+\i (00:26:17) delete 
+\i (00:26:17) generaledit 
+\i (00:26:20) roam x -96 
+\i (00:26:20) roam x -96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:25) roam x 96 
+\i (00:26:25) roam x 96
+\i (00:26:28) drag_start grid 2.0109 -0.8244
+\i (00:26:28) roam x -96 
+\i (00:26:28) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:29) roam x -96 
+\i (00:26:29) roam x -96
+\i (00:26:30) roam x -96 
+\i (00:26:30) roam x -96
+\i (00:26:30) roam x -96 
+\i (00:26:30) roam x -96
+\i (00:26:30) roam x -96 
+\i (00:26:30) roam x -96
+\i (00:26:32) drag_stop -35.4449 -1.1229
+\i (00:26:35) prepopup -35.2956 -1.0035
+\i (00:26:37) pop dyn_option_select @:@Delete 
+\i (00:26:37) delete 
+\i (00:26:37) generaledit 
+\i (00:26:39) roam x 96 
+\i (00:26:39) roam x 96
+\i (00:26:39) roam x 96 
+\i (00:26:39) roam x 96
+\i (00:26:39) roam y 96 
+\i (00:26:39) roam y 96
+\i (00:26:39) roam x 96 
+\i (00:26:39) roam x 96
+\i (00:26:39) roam x 96 
+\i (00:26:39) roam x 96
+\i (00:26:40) roam y -96 
+\i (00:26:40) roam y -96
+\i (00:26:40) roam y 96 
+\i (00:26:40) roam y 96
+\i (00:26:40) roam y 96 
+\i (00:26:40) roam y 96
+\i (00:26:41) roam x -96 
+\i (00:26:41) roam x -96
+\i (00:26:41) roam x -96 
+\i (00:26:41) roam x -96
+\i (00:26:41) roam x -96 
+\i (00:26:41) roam x -96
+\i (00:26:41) roam x -96 
+\i (00:26:41) roam x -96
+\i (00:26:41) save 
+\i (00:26:43) fillin yes 
+\t (00:26:47) Symbol '217614652.psm' created.
+\i (00:26:47) generaledit 
+\i (00:26:51) open 
+\i (00:26:58) fillin "2193200001.dra"
+\t (00:26:58) Opening existing design...
+\i (00:27:00) trapsize 932
+\d (00:27:00) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/2193200001.dra
+\i (00:27:00) generaledit 
+\i (00:27:41) drag_start grid 8.2856 3.6075
+\i (00:27:43) drag_stop -2.6920 3.0297
+\i (00:27:45) prepopup -2.3379 3.0856
+\i (00:27:47) pop dyn_option_select @:@Delete 
+\i (00:27:48) delete 
+\i (00:27:48) generaledit 
+\i (00:28:05) trapsize 934
+\i (00:28:05) trapsize 957
+\i (00:28:05) trapsize 963
+\i (00:28:05) trapsize 987
+\i (00:28:06) trapsize 1020
+\i (00:28:06) trapsize 1023
+\i (00:28:11) roam x -96 
+\i (00:28:11) roam x -96
+\i (00:28:11) roam y 96 
+\i (00:28:11) roam y 96
+\i (00:28:12) roam x -96 
+\i (00:28:12) roam x -96
+\i (00:28:19) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:28:21) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
+\i (00:28:23) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:28:24) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:28:25) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:28:26) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:28:27) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:28:31) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:28:31) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:28:33) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:28:34) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:28:35) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:28:35) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:28:38) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:28:39) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:28:42) QtSignal CVPLayerGrid CVPConductorsPlan clicked true
+\i (00:28:43) QtSignal CVPLayerGrid CVPConductorsPlan clicked false
+\i (00:28:45) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
+\i (00:28:45) updateport CVPane
+\i (00:28:47) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
+\i (00:28:47) updateport CVPane
+\i (00:28:49) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
+\i (00:28:51) QtSignal CVPLayerGrid CVPAllAll_Layers clicked false
+\i (00:28:53) roam y 96 
+\i (00:28:53) roam y 96
+\i (00:28:54) roam x -96 
+\i (00:28:54) roam x -96
+\i (00:28:59) setwindow form.mini
+\i (00:28:59) FORM mini class 'BOARD GEOMETRY' 
+\i (00:29:12) FORM mini class 'PACKAGE GEOMETRY' 
+\i (00:29:17) FORM mini subclass PIN_NUMBER 
+\i (00:29:17) setwindow pcb
+\i (00:29:17) updateport CVPane
+\i (00:29:19) drag_start grid 9.4015 1.7494
+\i (00:29:21) drag_stop 1.9949 1.8721
+\i (00:29:23) pick grid tgl 4.8184 2.7928
+\t (00:29:23) last pick:  5.0800 2.5400
+\i (00:29:25) prepopup 3.6931 1.2174
+\i (00:29:27) pop dyn_option_select @:@Delete 
+\i (00:29:27) delete 
+\i (00:29:27) generaledit 
+\i (00:29:28) undo 
+\i (00:29:28) trapsize 1023
+\i (00:29:28) generaledit 
+\i (00:29:29) pick grid tgl 5.1867 1.2174
+\t (00:29:29) last pick:  5.0800 0.0000
+\i (00:29:30) pick grid tgl 5.1867 1.2174
+\t (00:29:30) last pick:  5.0800 0.0000
+\i (00:29:32) pick grid tgl 5.6982 1.2583
+\t (00:29:32) last pick:  5.0800 0.0000
+\i (00:29:33) zoom in 1 
+\i (00:29:33) setwindow pcb
+\i (00:29:33) zoom in 5.6982 1.2583
+\i (00:29:33) trapsize 512
+\i (00:29:33) zoom in 1 
+\i (00:29:33) setwindow pcb
+\i (00:29:33) zoom in 5.6982 1.2584
+\i (00:29:33) trapsize 256
+\i (00:29:33) zoom in 1 
+\i (00:29:33) setwindow pcb
+\i (00:29:33) zoom in 5.6983 1.2584
+\i (00:29:33) trapsize 128
+\i (00:29:34) pick grid tgl 5.5832 1.3249
+\t (00:29:34) last pick:  5.0800 2.5400
+\i (00:29:35) pick grid tgl 5.2431 1.3070
+\t (00:29:35) last pick:  5.0800 2.5400
+\i (00:29:36) pick grid tgl 5.2431 1.3070
+\t (00:29:36) last pick:  5.0800 2.5400
+\i (00:29:37) pick grid tgl 5.2431 1.3070
+\t (00:29:37) last pick:  5.0800 2.5400
+\i (00:29:37) zoom out 1 
+\i (00:29:37) setwindow pcb
+\i (00:29:37) zoom out 5.2431 1.3070
+\i (00:29:37) trapsize 256
+\i (00:29:39) pick grid 5.4835 2.9132
+\t (00:29:39) last pick:  5.0800 2.5400
+\i (00:29:41) roam x -96 
+\i (00:29:41) roam x -96
+\i (00:29:41) roam x -96 
+\i (00:29:41) roam x -96
+\i (00:29:41) roam x -96 
+\i (00:29:41) roam x -96
+\i (00:29:41) roam x -96 
+\i (00:29:41) roam x -96
+\i (00:29:43) drag_start grid 4.4966 2.4170
+\i (00:29:43) move 
+\t (00:29:43) last pick:  5.0800 2.5400
+\t (00:29:43) Element has no origin, using pick.
+\t (00:29:43) Pick new location for the element(s).
+\i (00:29:44) drag_stop grid 1.7805 1.6088
+\i (00:29:44) generaledit 
+\i (00:29:45) undo 
+\i (00:29:45) trapsize 256
+\i (00:29:45) generaledit 
+\i (00:29:46) pick grid 3.3764 3.0564
+\t (00:29:46) last pick:  2.5400 2.5400
+\i (00:29:47) drag_start grid 4.6756 3.0104
+\i (00:29:49) drag_stop 1.1922 0.4937
+\i (00:29:50) pick grid tgl 5.4122 1.3838
+\t (00:29:50) last pick:  5.0800 2.5400
+\i (00:29:51) pick grid tgl 5.0388 1.3633
+\t (00:29:51) last pick:  5.0800 2.5400
+\i (00:29:52) pick grid tgl 5.2280 1.3786
+\t (00:29:52) last pick:  5.0800 2.5400
+\i (00:29:53) pick grid tgl 5.2280 1.3786
+\t (00:29:53) last pick:  5.0800 2.5400
+\i (00:29:54) pick grid tgl 5.2280 1.3786
+\t (00:29:54) last pick:  5.0800 2.5400
+\i (00:29:55) pick grid tgl 5.1564 1.3479
+\t (00:29:55) last pick:  5.0800 2.5400
+\i (00:29:57) roam x -96 
+\i (00:29:57) roam x -96
+\i (00:29:57) roam x -96 
+\i (00:29:57) roam x -96
+\i (00:29:57) roam x -96 
+\i (00:29:57) roam x -96
+\i (00:29:57) roam x -96 
+\i (00:29:57) roam x -96
+\i (00:29:59) pick grid tgl -0.3474 0.7597
+\t (00:29:59) last pick:  0.0000 0.0000
+\i (00:30:00) pick grid tgl -0.3474 0.7597
+\t (00:30:00) last pick:  0.0000 0.0000
+\i (00:30:01) pick grid tgl 0.3380 2.8569
+\t (00:30:01) last pick:  0.0000 2.5400
+\i (00:30:02) roam x -96 
+\i (00:30:02) roam x -96
+\i (00:30:03) roam x -96 
+\i (00:30:03) roam x -96
+\i (00:30:03) roam x -96 
+\i (00:30:03) roam x -96
+\i (00:30:05) pick grid tgl -1.7387 0.7393
+\t (00:30:05) last pick:  -2.5400 0.0000
+\i (00:30:06) pick grid tgl -1.6108 0.7444
+\t (00:30:06) last pick:  -2.5400 0.0000
+\i (00:30:09) prepopup 0.0056 0.5091
+\i (00:30:10) pop dyn_option_select @:@Delete 
+\i (00:30:10) delete 
+\i (00:30:10) generaledit 
+\i (00:30:12) roam x 96 
+\i (00:30:12) roam x 96
+\i (00:30:12) roam x 96 
+\i (00:30:12) roam x 96
+\i (00:30:12) roam y 96 
+\i (00:30:12) roam y 96
+\i (00:30:12) roam x -96 
+\i (00:30:12) roam x -96
+\i (00:30:13) zoom out 1 
+\i (00:30:13) setwindow pcb
+\i (00:30:13) zoom out 1.8009 -0.2042
+\i (00:30:13) trapsize 512
+\i (00:30:14) roam x 96 
+\i (00:30:14) roam x 96
+\i (00:30:14) roam x 96 
+\i (00:30:14) roam x 96
+\i (00:30:14) roam x 96 
+\i (00:30:14) roam x 96
+\i (00:30:14) roam x 96 
+\i (00:30:14) roam x 96
+\i (00:30:15) roam y 96 
+\i (00:30:15) roam y 96
+\i (00:30:19) drag_start grid 2.2511 3.6015
+\i (00:30:20) drag_stop 4.2971 0.9621
+\i (00:30:23) pick grid tgl 6.2818 2.8342
+\t (00:30:23) last pick:  5.0800 2.5400
+\i (00:30:25) pick grid tgl 5.4634 1.2792
+\t (00:30:25) last pick:  5.0800 2.5400
+\i (00:30:27) pick grid tgl 5.4838 1.2792
+\t (00:30:27) last pick:  5.0800 2.5400
+\i (00:30:28) pick grid tgl 5.1565 1.2076
+\t (00:30:28) last pick:  5.0800 0.0000
+\i (00:30:29) pick grid tgl 5.1565 1.2076
+\t (00:30:29) last pick:  5.0800 0.0000
+\i (00:30:30) pick grid tgl 5.1565 1.2076
+\t (00:30:30) last pick:  5.0800 0.0000
+\i (00:30:31) pick grid tgl 5.1565 1.2076
+\t (00:30:31) last pick:  5.0800 0.0000
+\i (00:30:33) pick grid tgl 3.2434 1.2895
+\t (00:30:33) last pick:  2.5400 2.5400
+\i (00:30:34) pick grid tgl 3.2434 1.2895
+\t (00:30:34) last pick:  2.5400 2.5400
+\i (00:30:35) pick grid tgl 3.0388 1.6577
+\t (00:30:35) last pick:  2.5400 2.5400
+\i (00:30:36) pick grid 3.6833 3.5094
+\t (00:30:36) last pick:  2.5400 2.5400
+\i (00:30:37) save 
+\i (00:30:39) fillin yes 
+\e (00:30:40) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:30:40) generaledit 
+\i (00:30:47) setwindow text
+\i (00:30:47) close
+\i (00:30:53) setwindow pcb
+\i (00:30:53) open 
+\i (00:31:11) fillin "D:/Projects/HardwareDesign/PCB_ST-LINK V3_1/allegro/ST-LINKV3_open.brd"
+\i (00:31:11) cd "D:/Projects/HardwareDesign/PCB_ST-LINK V3_1/allegro"
+\t (00:31:11) Opening existing design...
+\i (00:31:15) trapsize 3927
+\i (00:31:15) trapsize 4053
+\i (00:31:15) trapsize 4091
+\i (00:31:15) trapsize 4091
+\t (00:31:15) > Sending response DoneOpenBoard
+\t (00:31:15)     Journal end - Wed Jul 24 22:46:34 2024

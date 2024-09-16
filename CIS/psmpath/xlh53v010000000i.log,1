@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : ZM4748AL0.dra                                 )
+(    Drawing          : XLH53V010000000I.dra                          )
 (    Software Version : 23.1S006                                      )
-(    Date/Time        : Mon Sep 16 16:36:44 2024                      )
+(    Date/Time        : Mon Sep 16 16:39:00 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = D:/Projects/CadenceAllegro/CIS/psmpath
-    Name      = zm4748al0.psm
+    Name      = xlh53v010000000i.psm
     User      = Prometheus
     Machine   = DESKTOP-OU1R4S8
 

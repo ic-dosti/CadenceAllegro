@@ -1,420 +1,191 @@
-\t (00:16:06) allegro 23.1 S005 Windows SPB 64-bit Edition
-\t (00:16:06)     Journal start - Wed Jul 24 22:31:25 2024
-\t (00:16:06)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=15400 CPUs=12
-\t (00:16:06) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
-\t (00:16:06) 
-\d (00:16:06) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/217614652.dra
-\i (00:16:06) trapsize 2985
-\i (00:16:06) generaledit 
-\i (00:16:17) drag_start grid -15.8668 -4.4988
-\i (00:16:17) move 
-\t (00:16:17) last pick:  -16.3250 -4.3000
-\t (00:16:17) Pick new location for the element(s).
-\i (00:16:21) drag_stop grid -35.4452 6.7827
-\i (00:16:21) generaledit 
-\i (00:16:25) zoom in 1 
-\i (00:16:25) setwindow pcb
-\i (00:16:25) zoom in -37.0569 6.0067
-\i (00:16:25) trapsize 1492
-\i (00:16:27) prepopup -35.1467 7.6482
-\i (00:16:32) pop dyn_option_select '@:@Property edit' 
-\i (00:16:32) property edit 
-\i (00:16:37) setwindow form.editprop1
-\i (00:16:37) FORM editprop1 cancel  
-\i (00:16:37) setwindow pcb
-\i (00:16:37) generaledit 
-\i (00:16:42) pick grid -38.5193 4.2459
-\t (00:16:42) last pick:  -38.1000 5.0800
-\i (00:16:45) roam y -96 
-\i (00:16:45) roam y -96
-\i (00:16:45) roam x 96 
-\i (00:16:45) roam x 96
-\i (00:16:46) roam x 96 
-\i (00:16:46) roam x 96
-\i (00:16:46) roam x 96 
-\i (00:16:46) roam x 96
-\i (00:16:46) roam y -96 
-\i (00:16:46) roam y -96
-\i (00:25:35) drag_start grid -35.9522 6.8159
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:37) roam x 16
-\i (00:25:39) drag_stop 0.7573 6.2489
-\i (00:25:41) prepopup -1.9288 6.1593
-\i (00:25:43) pop dyn_option_select @:@Delete 
-\i (00:25:43) delete 
-\i (00:25:43) generaledit 
-\i (00:25:45) roam x -96 
-\i (00:25:45) roam x -96
-\i (00:25:45) roam x -96 
-\i (00:25:45) roam x -96
-\i (00:25:45) roam x -96 
-\i (00:25:45) roam x -96
-\i (00:25:47) drag_start grid -35.0867 3.4434
-\i (00:25:50) roam x 16
-\i (00:25:50) roam x 16
-\i (00:25:50) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:51) roam x 16
-\i (00:25:53) drag_stop 1.8914 3.5330
-\i (00:25:57) prepopup -0.7051 3.3539
-\i (00:25:59) pop dyn_option_select @:@Delete 
-\i (00:25:59) delete 
-\i (00:25:59) generaledit 
-\i (00:26:02) drag_start grid 1.8317 1.2349
-\i (00:26:02) move 
-\t (00:26:02) last pick:  0.0000 0.0000
-\t (00:26:02) Pick new location for the element(s).
-\i (00:26:04) drag_stop grid -2.5555 1.2349
-\i (00:26:04) generaledit 
-\i (00:26:05) undo 
-\i (00:26:05) trapsize 1492
-\i (00:26:05) generaledit 
-\i (00:26:06) pick grid 1.8616 -1.5109
-\t (00:26:06) last pick:  2.5400 -2.5400
-\i (00:26:08) drag_start grid 2.2197 0.8469
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:12) roam x -16
-\i (00:26:13) drag_stop -34.9972 1.4140
-\i (00:26:15) prepopup -33.8332 1.2647
-\i (00:26:17) pop dyn_option_select @:@Delete 
-\i (00:26:17) delete 
-\i (00:26:17) generaledit 
-\i (00:26:20) roam x -96 
-\i (00:26:20) roam x -96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:25) roam x 96 
-\i (00:26:25) roam x 96
-\i (00:26:28) drag_start grid 2.0109 -0.8244
-\i (00:26:28) roam x -96 
-\i (00:26:28) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:29) roam x -96 
-\i (00:26:29) roam x -96
-\i (00:26:30) roam x -96 
-\i (00:26:30) roam x -96
-\i (00:26:30) roam x -96 
-\i (00:26:30) roam x -96
-\i (00:26:30) roam x -96 
-\i (00:26:30) roam x -96
-\i (00:26:32) drag_stop -35.4449 -1.1229
-\i (00:26:35) prepopup -35.2956 -1.0035
-\i (00:26:37) pop dyn_option_select @:@Delete 
-\i (00:26:37) delete 
-\i (00:26:37) generaledit 
-\i (00:26:39) roam x 96 
-\i (00:26:39) roam x 96
-\i (00:26:39) roam x 96 
-\i (00:26:39) roam x 96
-\i (00:26:39) roam y 96 
-\i (00:26:39) roam y 96
-\i (00:26:39) roam x 96 
-\i (00:26:39) roam x 96
-\i (00:26:39) roam x 96 
-\i (00:26:39) roam x 96
-\i (00:26:40) roam y -96 
-\i (00:26:40) roam y -96
-\i (00:26:40) roam y 96 
-\i (00:26:40) roam y 96
-\i (00:26:40) roam y 96 
-\i (00:26:40) roam y 96
-\i (00:26:41) roam x -96 
-\i (00:26:41) roam x -96
-\i (00:26:41) roam x -96 
-\i (00:26:41) roam x -96
-\i (00:26:41) roam x -96 
-\i (00:26:41) roam x -96
-\i (00:26:41) roam x -96 
-\i (00:26:41) roam x -96
-\i (00:26:41) save 
-\i (00:26:43) fillin yes 
-\t (00:26:47) Symbol '217614652.psm' created.
-\i (00:26:47) generaledit 
-\i (00:26:51) open 
-\i (00:26:58) fillin "2193200001.dra"
-\t (00:26:58) Opening existing design...
-\i (00:27:00) trapsize 932
-\d (00:27:00) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/2193200001.dra
-\i (00:27:00) generaledit 
-\i (00:27:41) drag_start grid 8.2856 3.6075
-\i (00:27:43) drag_stop -2.6920 3.0297
-\i (00:27:45) prepopup -2.3379 3.0856
-\i (00:27:47) pop dyn_option_select @:@Delete 
-\i (00:27:48) delete 
-\i (00:27:48) generaledit 
-\i (00:28:05) trapsize 934
-\i (00:28:05) trapsize 957
-\i (00:28:05) trapsize 963
-\i (00:28:05) trapsize 987
-\i (00:28:06) trapsize 1020
-\i (00:28:06) trapsize 1023
-\i (00:28:11) roam x -96 
-\i (00:28:11) roam x -96
-\i (00:28:11) roam y 96 
-\i (00:28:11) roam y 96
-\i (00:28:12) roam x -96 
-\i (00:28:12) roam x -96
-\i (00:28:19) QtSignal CVPLayerGrid CVPAllConductors clicked true
-\i (00:28:21) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
-\i (00:28:23) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
-\i (00:28:24) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
-\i (00:28:25) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
-\i (00:28:26) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
-\i (00:28:27) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
-\i (00:28:31) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
-\i (00:28:31) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
-\i (00:28:33) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (00:28:34) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
-\i (00:28:35) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (00:28:35) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
-\i (00:28:38) QtSignal CVPLayerGrid CVPAllConductors clicked true
-\i (00:28:39) QtSignal CVPLayerGrid CVPAllConductors clicked false
-\i (00:28:42) QtSignal CVPLayerGrid CVPConductorsPlan clicked true
-\i (00:28:43) QtSignal CVPLayerGrid CVPConductorsPlan clicked false
-\i (00:28:45) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
-\i (00:28:45) updateport CVPane
-\i (00:28:47) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
-\i (00:28:47) updateport CVPane
-\i (00:28:49) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
-\i (00:28:51) QtSignal CVPLayerGrid CVPAllAll_Layers clicked false
-\i (00:28:53) roam y 96 
-\i (00:28:53) roam y 96
-\i (00:28:54) roam x -96 
-\i (00:28:54) roam x -96
-\i (00:28:59) setwindow form.mini
-\i (00:28:59) FORM mini class 'BOARD GEOMETRY' 
-\i (00:29:12) FORM mini class 'PACKAGE GEOMETRY' 
-\i (00:29:17) FORM mini subclass PIN_NUMBER 
-\i (00:29:17) setwindow pcb
-\i (00:29:17) updateport CVPane
-\i (00:29:19) drag_start grid 9.4015 1.7494
-\i (00:29:21) drag_stop 1.9949 1.8721
-\i (00:29:23) pick grid tgl 4.8184 2.7928
-\t (00:29:23) last pick:  5.0800 2.5400
-\i (00:29:25) prepopup 3.6931 1.2174
-\i (00:29:27) pop dyn_option_select @:@Delete 
-\i (00:29:27) delete 
-\i (00:29:27) generaledit 
-\i (00:29:28) undo 
-\i (00:29:28) trapsize 1023
-\i (00:29:28) generaledit 
-\i (00:29:29) pick grid tgl 5.1867 1.2174
-\t (00:29:29) last pick:  5.0800 0.0000
-\i (00:29:30) pick grid tgl 5.1867 1.2174
-\t (00:29:30) last pick:  5.0800 0.0000
-\i (00:29:32) pick grid tgl 5.6982 1.2583
-\t (00:29:32) last pick:  5.0800 0.0000
-\i (00:29:33) zoom in 1 
-\i (00:29:33) setwindow pcb
-\i (00:29:33) zoom in 5.6982 1.2583
-\i (00:29:33) trapsize 512
-\i (00:29:33) zoom in 1 
-\i (00:29:33) setwindow pcb
-\i (00:29:33) zoom in 5.6982 1.2584
-\i (00:29:33) trapsize 256
-\i (00:29:33) zoom in 1 
-\i (00:29:33) setwindow pcb
-\i (00:29:33) zoom in 5.6983 1.2584
-\i (00:29:33) trapsize 128
-\i (00:29:34) pick grid tgl 5.5832 1.3249
-\t (00:29:34) last pick:  5.0800 2.5400
-\i (00:29:35) pick grid tgl 5.2431 1.3070
-\t (00:29:35) last pick:  5.0800 2.5400
-\i (00:29:36) pick grid tgl 5.2431 1.3070
-\t (00:29:36) last pick:  5.0800 2.5400
-\i (00:29:37) pick grid tgl 5.2431 1.3070
-\t (00:29:37) last pick:  5.0800 2.5400
-\i (00:29:37) zoom out 1 
-\i (00:29:37) setwindow pcb
-\i (00:29:37) zoom out 5.2431 1.3070
-\i (00:29:37) trapsize 256
-\i (00:29:39) pick grid 5.4835 2.9132
-\t (00:29:39) last pick:  5.0800 2.5400
-\i (00:29:41) roam x -96 
-\i (00:29:41) roam x -96
-\i (00:29:41) roam x -96 
-\i (00:29:41) roam x -96
-\i (00:29:41) roam x -96 
-\i (00:29:41) roam x -96
-\i (00:29:41) roam x -96 
-\i (00:29:41) roam x -96
-\i (00:29:43) drag_start grid 4.4966 2.4170
-\i (00:29:43) move 
-\t (00:29:43) last pick:  5.0800 2.5400
-\t (00:29:43) Element has no origin, using pick.
-\t (00:29:43) Pick new location for the element(s).
-\i (00:29:44) drag_stop grid 1.7805 1.6088
-\i (00:29:44) generaledit 
-\i (00:29:45) undo 
-\i (00:29:45) trapsize 256
-\i (00:29:45) generaledit 
-\i (00:29:46) pick grid 3.3764 3.0564
-\t (00:29:46) last pick:  2.5400 2.5400
-\i (00:29:47) drag_start grid 4.6756 3.0104
-\i (00:29:49) drag_stop 1.1922 0.4937
-\i (00:29:50) pick grid tgl 5.4122 1.3838
-\t (00:29:50) last pick:  5.0800 2.5400
-\i (00:29:51) pick grid tgl 5.0388 1.3633
-\t (00:29:51) last pick:  5.0800 2.5400
-\i (00:29:52) pick grid tgl 5.2280 1.3786
-\t (00:29:52) last pick:  5.0800 2.5400
-\i (00:29:53) pick grid tgl 5.2280 1.3786
-\t (00:29:53) last pick:  5.0800 2.5400
-\i (00:29:54) pick grid tgl 5.2280 1.3786
-\t (00:29:54) last pick:  5.0800 2.5400
-\i (00:29:55) pick grid tgl 5.1564 1.3479
-\t (00:29:55) last pick:  5.0800 2.5400
-\i (00:29:57) roam x -96 
-\i (00:29:57) roam x -96
-\i (00:29:57) roam x -96 
-\i (00:29:57) roam x -96
-\i (00:29:57) roam x -96 
-\i (00:29:57) roam x -96
-\i (00:29:57) roam x -96 
-\i (00:29:57) roam x -96
-\i (00:29:59) pick grid tgl -0.3474 0.7597
-\t (00:29:59) last pick:  0.0000 0.0000
-\i (00:30:00) pick grid tgl -0.3474 0.7597
-\t (00:30:00) last pick:  0.0000 0.0000
-\i (00:30:01) pick grid tgl 0.3380 2.8569
-\t (00:30:01) last pick:  0.0000 2.5400
-\i (00:30:02) roam x -96 
-\i (00:30:02) roam x -96
-\i (00:30:03) roam x -96 
-\i (00:30:03) roam x -96
-\i (00:30:03) roam x -96 
-\i (00:30:03) roam x -96
-\i (00:30:05) pick grid tgl -1.7387 0.7393
-\t (00:30:05) last pick:  -2.5400 0.0000
-\i (00:30:06) pick grid tgl -1.6108 0.7444
-\t (00:30:06) last pick:  -2.5400 0.0000
-\i (00:30:09) prepopup 0.0056 0.5091
-\i (00:30:10) pop dyn_option_select @:@Delete 
-\i (00:30:10) delete 
-\i (00:30:10) generaledit 
-\i (00:30:12) roam x 96 
-\i (00:30:12) roam x 96
-\i (00:30:12) roam x 96 
-\i (00:30:12) roam x 96
-\i (00:30:12) roam y 96 
-\i (00:30:12) roam y 96
-\i (00:30:12) roam x -96 
-\i (00:30:12) roam x -96
-\i (00:30:13) zoom out 1 
-\i (00:30:13) setwindow pcb
-\i (00:30:13) zoom out 1.8009 -0.2042
-\i (00:30:13) trapsize 512
-\i (00:30:14) roam x 96 
-\i (00:30:14) roam x 96
-\i (00:30:14) roam x 96 
-\i (00:30:14) roam x 96
-\i (00:30:14) roam x 96 
-\i (00:30:14) roam x 96
-\i (00:30:14) roam x 96 
-\i (00:30:14) roam x 96
-\i (00:30:15) roam y 96 
-\i (00:30:15) roam y 96
-\i (00:30:19) drag_start grid 2.2511 3.6015
-\i (00:30:20) drag_stop 4.2971 0.9621
-\i (00:30:23) pick grid tgl 6.2818 2.8342
-\t (00:30:23) last pick:  5.0800 2.5400
-\i (00:30:25) pick grid tgl 5.4634 1.2792
-\t (00:30:25) last pick:  5.0800 2.5400
-\i (00:30:27) pick grid tgl 5.4838 1.2792
-\t (00:30:27) last pick:  5.0800 2.5400
-\i (00:30:28) pick grid tgl 5.1565 1.2076
-\t (00:30:28) last pick:  5.0800 0.0000
-\i (00:30:29) pick grid tgl 5.1565 1.2076
-\t (00:30:29) last pick:  5.0800 0.0000
-\i (00:30:30) pick grid tgl 5.1565 1.2076
-\t (00:30:30) last pick:  5.0800 0.0000
-\i (00:30:31) pick grid tgl 5.1565 1.2076
-\t (00:30:31) last pick:  5.0800 0.0000
-\i (00:30:33) pick grid tgl 3.2434 1.2895
-\t (00:30:33) last pick:  2.5400 2.5400
-\i (00:30:34) pick grid tgl 3.2434 1.2895
-\t (00:30:34) last pick:  2.5400 2.5400
-\i (00:30:35) pick grid tgl 3.0388 1.6577
-\t (00:30:35) last pick:  2.5400 2.5400
-\i (00:30:36) pick grid 3.6833 3.5094
-\t (00:30:36) last pick:  2.5400 2.5400
-\i (00:30:37) save 
-\i (00:30:39) fillin yes 
-\e (00:30:40) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (00:30:40) generaledit 
-\i (00:30:47) setwindow text
-\i (00:30:47) close
-\i (00:30:53) setwindow pcb
-\i (00:30:53) open 
-\i (00:31:11) fillin "D:/Projects/HardwareDesign/PCB_ST-LINK V3_1/allegro/ST-LINKV3_open.brd"
-\i (00:31:11) cd "D:/Projects/HardwareDesign/PCB_ST-LINK V3_1/allegro"
-\t (00:31:11) Opening existing design...
-\i (00:31:15) trapsize 3927
-\i (00:31:15) trapsize 4053
-\i (00:31:15) trapsize 4091
-\i (00:31:15) trapsize 4091
-\t (00:31:15) > Sending response DoneOpenBoard
-\t (00:31:15)     Journal end - Wed Jul 24 22:46:34 2024
+\t (00:00:41) allegro 23.1 S005 Windows SPB 64-bit Edition
+\t (00:00:41)     Journal start - Tue Jul 30 14:50:22 2024
+\t (00:00:41)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=16888 CPUs=12
+\t (00:00:41) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
+\t (00:00:41) 
+\d (00:00:41) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/2193200001.dra
+\i (00:00:41) trapsize 560
+\i (00:00:41) generaledit 
+\i (00:00:46) open 
+\i (00:01:44) fillin "BGA900C100P30X30_3100X3100X335.dra"
+\t (00:01:44) Opening existing design...
+\i (00:01:44) trapsize 24313
+\d (00:01:44) Design opened: C:/Cadence/SPB_23.1/share/local/pcb/symbols/BGA900C100P30X30_3100X3100X335.dra
+\i (00:01:44) generaledit 
+\i (00:01:45) zoom in 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom in -28.5196 -16.8493
+\i (00:01:45) trapsize 12157
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -17.5787 -10.5279
+\i (00:01:46) trapsize 6078
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -17.4571 -11.8650
+\i (00:01:46) trapsize 3039
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in -17.9433 -14.0532
+\i (00:01:46) trapsize 1520
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in -16.1198 -13.1719
+\i (00:01:47) trapsize 760
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in -16.0742 -13.3238
+\i (00:01:47) trapsize 380
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out -16.0666 -10.7329
+\i (00:01:48) trapsize 760
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out -16.0970 -11.0672
+\i (00:01:48) trapsize 1520
+\i (00:01:48) zoom out 1 
+\i (00:01:48) setwindow pcb
+\i (00:01:48) zoom out -16.1881 -11.4319
+\i (00:01:48) trapsize 3039
+\i (00:01:49) zoom out 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom out -16.2489 -11.7966
+\i (00:01:49) trapsize 6078
+\i (00:01:49) zoom in 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom in -12.4804 4.1284
+\i (00:01:49) trapsize 3039
+\i (00:01:52) 3d 
+\i (00:01:54) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:01:57) generaledit 
+\i (00:01:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 814 666 814 721 1 1 0 +
+\i (00:01:58) QtSignal "873.343" "-280.959" "-827.569"
+\i (00:01:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 815 608 815 663 1 0 +
+\i (00:01:58) QtSignal 0 "790.88" "-192.601" "-618.356"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 850 605 850 660 4 4 0 +
+\i (00:01:59) QtSignal "889.613" "-85.0312" "-607.535"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.613" "-85.0312" "-607.535" +
+\i (00:01:59) QtSignal "885.195" "-80.6134" "-596.713"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.625" "-85.0434" "-607.564" +
+\i (00:01:59) QtSignal "888.153" "-83.5708" "-603.957"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.63" "-85.0474" "-607.575" +
+\i (00:01:59) QtSignal "885.212" "-80.6296" "-596.753"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.642" "-85.0602" "-607.604" +
+\i (00:01:59) QtSignal "869.024" "-70.3362" "-564.318"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.695" "-85.1048" "-607.723" +
+\i (00:01:59) QtSignal "869.079" "-64.4883" "-557.223"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.752" "-85.1616" "-607.862" +
+\i (00:01:59) QtSignal "882.389" "-77.7986" "-589.827"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.772" "-85.1813" "-607.913" +
+\i (00:01:59) QtSignal "869.155" "-64.5649" "-557.413"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.829" "-85.2387" "-608.051" +
+\i (00:01:59) QtSignal "879.521" "-74.9305" "-582.801"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.857" "-85.2665" "-608.121" +
+\i (00:01:59) QtSignal "886.912" "-82.3213" "-600.907"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.865" "-85.2746" "-608.141" +
+\i (00:01:59) QtSignal "869.249" "-64.6582" "-557.641"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.922" "-85.3313" "-608.28" +
+\i (00:01:59) QtSignal "884.031" "-79.4409" "-593.852"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.938" "-85.3474" "-608.32" +
+\i (00:01:59) QtSignal "873.74" "-69.1488" "-568.642"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.983" "-85.3921" "-608.429" +
+\i (00:01:59) QtSignal "876.727" "-78.0311" "-583.179"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.016" "-85.4172" "-608.498" +
+\i (00:01:59) QtSignal "885.598" "-80.9994" "-597.677"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.028" "-85.4294" "-608.528" +
+\i (00:01:59) QtSignal "873.829" "-69.2308" "-568.85"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.072" "-85.4735" "-608.638" +
+\i (00:01:59) QtSignal "882.709" "-78.1105" "-590.602"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.092" "-85.4937" "-608.688" +
+\i (00:01:59) QtSignal "888.62" "-84.0211" "-605.081"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.097" "-85.4984" "-608.697" +
+\i (00:01:59) QtSignal "887.152" "-82.5532" "-601.483"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.104" "-85.5059" "-608.718" +
+\i (00:01:59) QtSignal "894.524" "-84.0313" "-612.325"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.097" "-85.5066" "-608.707" +
+\i (00:01:59) QtSignal "910.721" "-82.5535" "-630.35"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.056" "-85.4987" "-608.648" +
+\i (00:01:59) QtSignal "897.421" "-86.9693" "-619.469"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "890.04" "-85.4906" "-608.618" +
+\i (00:01:59) QtSignal "963.688" "-106.089" "-724.046"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.873" "-85.398" "-608.3" +
+\i (00:01:59) QtSignal "922.274" "-106.011" "-673.228"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.791" "-85.3334" "-608.121" +
+\i (00:01:59) QtSignal "897.154" "-92.6964" "-626.156"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.771" "-85.3131" "-608.071" +
+\i (00:01:59) QtSignal "905.968" "-107.404" "-654.964"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.723" "-85.2562" "-607.942" +
+\i (00:01:59) QtSignal "889.721" "-91.1486" "-615.156"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.719" "-85.2438" "-607.922" +
+\i (00:01:59) QtSignal "889.719" "-85.2438" "-607.922"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.719" "-85.2438" "-607.922" +
+\i (00:01:59) QtSignal "885.295" "-98.5032" "-618.744"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.719" "-85.2193" "-607.893" +
+\i (00:01:59) QtSignal "886.772" "-88.1665" "-607.893"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.723" "-85.2153" "-607.892" +
+\i (00:01:59) QtSignal "874.985" "-105.844" "-615.107"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.74" "-85.1822" "-607.873" +
+\i (00:01:59) QtSignal "889.74" "-85.1822" "-607.873"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.74" "-85.1822" "-607.873" +
+\i (00:01:59) QtSignal "872.054" "-108.758" "-615.087"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "889.76" "-85.1451" "-607.853" +
+\i (00:01:59) QtSignal "883.866" "-91.0395" "-607.853"
+\i (00:01:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 842 574 842 629 4 0 +
+\i (00:01:59) QtSignal 0 "885.347" "-92.5037" "-611.46"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1248 490 1248 545 4 4 +
+\i (00:02:00) QtSignal 0 "1958.21" "1227.75" "-308.461"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.21" "1227.75" "-308.461" +
+\i (00:02:00) QtSignal "1962.62" "1223.34" "-319.283"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.19" "1227.77" "-308.432" +
+\i (00:02:00) QtSignal "1964.08" "1221.88" "-322.86"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.18" "1227.78" "-308.392" +
+\i (00:02:00) QtSignal "1964.07" "1221.89" "-322.82"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.16" "1227.8" "-308.352" +
+\i (00:02:00) QtSignal "2003.82" "1211.61" "-384.102"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.06" "1227.86" "-308.143" +
+\i (00:02:00) QtSignal "1958.06" "1227.86" "-308.143"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1958.06" "1227.86" "-308.143" +
+\i (00:02:00) QtSignal "1994.88" "1226.4" "-355.036"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "1957.98" "1227.89" "-308.014" +
+\i (00:02:00) QtSignal "1963.87" "1227.89" "-315.228"
+\i (00:02:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1260 537 1260 592 4 +
+\i (00:02:00) QtSignal 0 0 "1957.97" "1227.89" "-307.994"
+\i (00:02:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 681 202 681 257 1 1 0 +
+\i (00:02:01) QtSignal "-241.777" "14.7934" "900.392"
+\i (00:02:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 681 202 681 257 1 0 +
+\i (00:02:01) QtSignal 0 "-241.777" "14.7934" "900.392"
+\i (00:02:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 313 139 313 194 1 1 0 +
+\i (00:02:01) QtSignal "-1419.12" "-976.998" "1127.64"
+\i (00:02:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 313 139 313 194 1 0 +
+\i (00:02:01) QtSignal 0 "-1419.12" "-976.998" "1127.64"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 185 431 185 486 0 0 120
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 184 431 184 486 0 0 240
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 184 431 184 486 0 0 120
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 184 431 184 486 0 0 120
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 184 432 184 487 0 0 120
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 85 417 85 472 4 4 0 "-372.543" +
+\i (00:02:02) QtSignal "-634.015" "265.922"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.543" "-634.015" "265.922" +
+\i (00:02:02) QtSignal "-368.68" "-630.153" "265.922"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.549" "-634.021" "265.922" +
+\i (00:02:02) QtSignal "-367.527" "-628.227" "266.867"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.555" "-634.03" "265.919" +
+\i (00:02:02) QtSignal "-354.786" "-616.26" "265.919"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.58" "-634.054" "265.919" +
+\i (00:02:02) QtSignal "-304.591" "-562.977" "269.701"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.674" "-634.156" "265.909" +
+\i (00:02:02) QtSignal "-348.723" "-608.661" "267.8"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.706" "-634.193" "265.903" +
+\i (00:02:02) QtSignal "-196.167" "-449.161" "276.305"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-372.948" "-634.459" "265.875" +
+\i (00:02:02) QtSignal "-328.91" "-588.876" "267.766"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-373.009" "-634.523" "265.87" +
+\i (00:02:02) QtSignal "-285.319" "-542.973" "270.597"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-373.129" "-634.655" "265.857" +
+\i (00:02:02) QtSignal "-276.555" "-536.537" "267.748"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-373.264" "-634.793" "265.851" +
+\i (00:02:02) QtSignal "-280.553" "-542.083" "265.851"
+\i (00:02:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent "-373.394" "-634.924" "265.851" +
+\i (00:02:02) QtSignal "-373.394" "-634.924" "265.851"
+\i (0

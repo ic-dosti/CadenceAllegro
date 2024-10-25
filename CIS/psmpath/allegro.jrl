@@ -1,24 +1,17 @@
-\t (00:00:12) allegro 23.1 S006 (4217799) Windows SPB 64-bit Edition
-\t (00:00:12)     Journal start - Fri Sep 20 11:18:19 2024
-\t (00:00:12)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=6052 CPUs=12
-\t (00:00:12) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
-\t (00:00:12) 
-   (00:00:12) Loading axlcore.cxt 
-\t (00:00:13) Opening existing design...
-\i (00:00:13) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 10102166A812A
-\d (00:00:14) Design opened: D:/Projects/CadenceAllegro/CIS/psmpath/10102166A812A.dra
-\i (00:00:14) trapsize 5835
-\i (00:00:14) trapsize 6626
-\i (00:00:14) trapsize 5835
-\i (00:00:15) trapsize 13050
-\i (00:00:15) trapsize 13050
-\t (00:00:15) Loading NV GPU Plugin
-\i (00:00:15) trapsize 1509
-\i (00:00:18) generaledit 
-\i (00:00:25) open 
-\i (00:00:46) fillin "D:/Projects/HardwareDesign/Xilinx KC705/allegro/ultima_new.brd"
-\i (00:00:46) cd "D:/Projects/HardwareDesign/Xilinx KC705/allegro"
-\t (00:00:46) Opening existing design...
-\i (00:00:50) trapsize 2531
-\i (00:00:51) trapsize 2531
-\t (00:00:51)     Journal end - Fri Sep 20 11:18:58 2024
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Mar 28 19:10:19 2022
+\t (00:00:00)         Host=HAMIT-PC User=Hamit Pid=9360 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Cadence\Cadence\Cadence_SPB_17.2-2016\share\pcb\pcb_lib\symbols\TE_5787956-1.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:05) fillin yes 
+\d (00:00:05) Design opened: C:/Cadence/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols/TE_5787956-1.dra
+\i (00:00:05) trapsize 5399
+\i (00:00:05) trapsize 5642
+\i (00:00:05) trapsize 5642
+\i (00:00:05) trapsize 5929
+\i (00:00:06) generaledit 
+\i (00:00:07) roam x -96 
+\i (00:01:14) exit 
+\t (00:01:14)     Journal end - Mon Mar 28 19:11:33 2022

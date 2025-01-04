@@ -17,4 +17,20 @@
 4. Выберите в качестве источника данных `Microsoft Access Driver`
 5. Имя источника данных - `CIS`, база данных - выбираете файл БД который лежит в репозитории
 6. Нажимаете ОК, перезагружаете компьютер
-7. ...
+7. 
+
+
+XX. 
+```SKILL
+[Part Management]
+Configuration File=D:\PROJECTS\CADENCEALLEGRO\CIS\CIS.DBC
+[Footprint Viewer Type]
+Type=Allegro
+[Allegro Footprints]
+Dir0=C:\Cadence\SPB_24.1\share\pcb\pcb_lib\symbols
+Dir1=D:\Projects\CadenceAllegro\CIS\olbpath
+Dir2=D:\Projects\CadenceAllegro\CIS\padpath
+Dir3=D:\Projects\CadenceAllegro\CIS\psmpath
+Dir4=D:\Projects\CadenceAllegro\CIS\stppath
+```
+

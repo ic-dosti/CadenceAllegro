@@ -1,6 +1,6 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Downrev Design                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : dip8.dra                                      )
 (    Software Version : 24.1P001                                      )
@@ -9,6 +9,15 @@
 (---------------------------------------------------------------------)
 
 
+Create Symbol of type: PACKAGE
+    Directory = D:/Projects/CadenceAllegro/CIS/psmpath
+    Name      = dip8.psm
+    User      = Prometheus
+    Machine   = DESKTOP-D851ENJ
 
-Changes made to design for 17.2 compatibility.
+
+Create symbol started.
+ 
+
+Create symbol completed.
 

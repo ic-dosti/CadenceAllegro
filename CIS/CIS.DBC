@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <CFGManager>
 
-  <!--CIS DBC configuration file 17.2 release. Created on (date/time) Sun Jan  5 15:05:27 2025
+  <!--CIS DBC configuration file 17.2 release. Created on (date/time) Thu Jan  9 11:37:02 2025
 -->
 
   <CISVersion>
     <Value>CIS Version 17.2</Value>
   </CISVersion>
 
-  <LastModifiedTime>1736071526</LastModifiedTime>
+  <LastModifiedTime>1736404619</LastModifiedTime>
 
   <AllowDuplicatePartNumbers>0</AllowDuplicatePartNumbers>
 
@@ -32,7 +32,7 @@
 
   <Version>2457</Version>
 
-  <DSNName>cis</DSNName>
+  <DSNName>CIS</DSNName>
 
   <AssistMode>0</AssistMode>
 
@@ -42,76 +42,27 @@
 
   <PartRefernce>1</PartRefernce>
 
-  <RefDesAssoc>
-    <PartTypes indx="0">
-      <sPartTypes>SFP</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="1">
-      <sPartTypes>FPGA</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="2">
-      <sPartTypes>Carbon Film</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="3">
-      <sPartTypes>MCU</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="4">
-      <sPartTypes>TTL Logic</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="5">
-      <sPartTypes>Electrolytic</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="6">
-      <sPartTypes>Ceramic</sPartTypes>
-    </PartTypes>
-    <PartTypes indx="7">
-      <sPartTypes>MLT</sPartTypes>
-    </PartTypes>
-    <RefDesPrefixes indx="0">
-      <sRefDesPrefixes>J</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="1">
-      <sRefDesPrefixes>U</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="2">
-      <sRefDesPrefixes>R,RP</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="3">
-      <sRefDesPrefixes>U</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="4">
-      <sRefDesPrefixes>U</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="5">
-      <sRefDesPrefixes>C</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="6">
-      <sRefDesPrefixes>C</sRefDesPrefixes>
-    </RefDesPrefixes>
-    <RefDesPrefixes indx="7">
-      <sRefDesPrefixes>R</sRefDesPrefixes>
-    </RefDesPrefixes>
-  </RefDesAssoc>
+  <RefDesAssoc/>
 
   <DbTableCfg indx="0">
     <NewPartDB>0</NewPartDB>
-    <TableName>capacitor</TableName>
+    <TableName>Capacitors</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -120,15 +71,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -138,16 +89,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -157,7 +108,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -175,7 +126,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -188,12 +139,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -211,7 +162,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -228,15 +179,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -246,26 +197,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -278,48 +229,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -335,23 +250,23 @@
 
   <DbTableCfg indx="1">
     <NewPartDB>0</NewPartDB>
-    <TableName>connector</TableName>
+    <TableName>Connectors</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -360,15 +275,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -378,16 +293,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -397,7 +312,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -415,7 +330,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -428,12 +343,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -451,7 +366,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -468,15 +383,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -486,26 +401,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -518,48 +433,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -575,23 +454,23 @@
 
   <DbTableCfg indx="2">
     <NewPartDB>0</NewPartDB>
-    <TableName>diode</TableName>
+    <TableName>Diodes</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -600,15 +479,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -618,16 +497,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -637,7 +516,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -655,7 +534,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -668,12 +547,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -691,7 +570,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -708,15 +587,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -726,26 +605,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -758,48 +637,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -815,23 +658,23 @@
 
   <DbTableCfg indx="3">
     <NewPartDB>0</NewPartDB>
-    <TableName>ic</TableName>
+    <TableName>ICs</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -840,15 +683,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -858,16 +701,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -877,7 +720,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -895,7 +738,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -908,12 +751,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -931,7 +774,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -948,15 +791,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -966,26 +809,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -998,48 +841,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1055,23 +862,23 @@
 
   <DbTableCfg indx="4">
     <NewPartDB>0</NewPartDB>
-    <TableName>inductor</TableName>
+    <TableName>Inductors</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1080,15 +887,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1098,16 +905,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1117,7 +924,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1135,7 +942,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1148,12 +955,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1171,7 +978,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1188,15 +995,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1206,26 +1013,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1238,48 +1045,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1295,23 +1066,23 @@
 
   <DbTableCfg indx="5">
     <NewPartDB>0</NewPartDB>
-    <TableName>mechanical</TableName>
+    <TableName>Mechanicals</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1320,15 +1091,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1338,16 +1109,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1357,7 +1128,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1375,7 +1146,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1388,12 +1159,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1411,7 +1182,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1428,15 +1199,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1446,26 +1217,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1478,48 +1249,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1535,23 +1270,23 @@
 
   <DbTableCfg indx="6">
     <NewPartDB>0</NewPartDB>
-    <TableName>oscillator</TableName>
+    <TableName>Oscillators</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1560,15 +1295,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1578,16 +1313,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1597,7 +1332,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1615,7 +1350,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1628,12 +1363,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1651,7 +1386,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1668,15 +1403,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1686,26 +1421,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1718,48 +1453,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1775,23 +1474,23 @@
 
   <DbTableCfg indx="7">
     <NewPartDB>0</NewPartDB>
-    <TableName>resistor</TableName>
+    <TableName>Resistors</TableName>
     <TableUsed>1</TableUsed>
     <DbFieldDef indx="0">
-      <FieldName>part_number</FieldName>
+      <FieldName>Part Number</FieldName>
       <DBFieldName>part_number</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>1</Key>
+      <Key>0</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>1</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1800,15 +1499,15 @@
       <DBFieldName>part_type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>2</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1818,16 +1517,16 @@
       <DBFieldName>value</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
-      <Key>0</Key>
+      <Key>1</Key>
       <Ignore>0</Ignore>
-      <Visibility>0</Visibility>
+      <Visibility>1</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
@@ -1837,7 +1536,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1855,7 +1554,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1868,12 +1567,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
-      <FieldName>Simulation Model</FieldName>
-      <DBFieldName>pspice_model</DBFieldName>
+      <FieldName>pscipe_model</FieldName>
+      <DBFieldName>pscipe_model</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1891,7 +1590,7 @@
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1908,15 +1607,15 @@
       <DBFieldName>power</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
@@ -1926,26 +1625,26 @@
       <DBFieldName>tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="9">
-      <FieldName>Manufacturer's Part Number</FieldName>
-      <DBFieldName>mfr_part_number</DBFieldName>
+      <FieldName>Manufacturer</FieldName>
+      <DBFieldName>manufacturer</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>
@@ -1958,48 +1657,12 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="10">
-      <FieldName>Manufacturer</FieldName>
-      <DBFieldName>manufacturer</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>45</DBFieldPrecision>
-      <DBFieldLength>45</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>0</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="11">
       <FieldName></FieldName>
       <DBFieldName>datasheet</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
-      <DBFieldScale>32484</DBFieldScale>
-      <DBFieldRadix>32484</DBFieldRadix>
-      <DBFieldNullable>0</DBFieldNullable>
-      <Browse>1</Browse>
-      <Protected>0</Protected>
-      <Key>0</Key>
-      <Ignore>1</Ignore>
-      <Visibility>0</Visibility>
-      <PropertyType>0</PropertyType>
-      <UpdatePartProp>1</UpdatePartProp>
-    </DbFieldDef>
-    <DbFieldDef indx="12">
-      <FieldName></FieldName>
-      <DBFieldName>photo</DBFieldName>
-      <ICAFieldName></ICAFieldName>
-      <DBFieldType>12</DBFieldType>
-      <DBFieldPrecision>255</DBFieldPrecision>
-      <DBFieldLength>255</DBFieldLength>
+      <DBFieldLength>510</DBFieldLength>
       <DBFieldScale>32484</DBFieldScale>
       <DBFieldRadix>32484</DBFieldRadix>
       <DBFieldNullable>0</DBFieldNullable>

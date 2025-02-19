@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <CFGManager>
 
-  <!--CIS DBC configuration file 17.2 release. Created on (date/time) Thu Jan  9 11:37:02 2025
+  <!--CIS DBC configuration file 17.2 release. Created on (date/time) Mon Feb 17 12:34:08 2025
 -->
 
   <CISVersion>
     <Value>CIS Version 17.2</Value>
   </CISVersion>
 
-  <LastModifiedTime>1736404619</LastModifiedTime>
+  <LastModifiedTime>543976824</LastModifiedTime>
 
   <AllowDuplicatePartNumbers>0</AllowDuplicatePartNumbers>
 
@@ -34,7 +34,7 @@
 
   <DSNName>CIS</DSNName>
 
-  <AssistMode>0</AssistMode>
+  <AssistMode>1</AssistMode>
 
   <AutoPartTypeRefresh>1</AutoPartTypeRefresh>
 
@@ -151,7 +151,7 @@
       <Browse>0</Browse>
       <Protected>0</Protected>
       <Key>0</Key>
-      <Ignore>0</Ignore>
+      <Ignore>1</Ignore>
       <Visibility>0</Visibility>
       <PropertyType>5</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>

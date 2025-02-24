@@ -1,65 +1,24 @@
-\t (00:00:02) allegro 24.1 S002 (4270188) [1/23/2025] Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Wed Feb 19 11:29:00 2025
-\t (00:00:02)         Host=DESKTOP-2BLDU22 User=Tokito Pid=524 CPUs=4
-\t (00:00:02) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe D:\Projects\CadenceAllegro\CIS\psmpath\RESC0402X15N.dra
-\t (00:00:02) 
-\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) allegro 24.1 S002 (4270188) [1/23/2025] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Mon Feb 24 12:10:36 2025
+\t (00:00:03)         Host=DESKTOP-2BLDU22 User=Tokito Pid=8784 CPUs=4
+\t (00:00:03) CmdLine= c:\cadence\spb_24.1\tools\bin\allegro.exe D:\Projects\CadenceAllegro\CIS\psmpath\TSW-110-XX-YY-D.dra
+\t (00:00:03) 
+\t (00:00:03) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged RESC0402X15N
-\d (00:00:04) Design opened: D:/Projects/CadenceAllegro/CIS/psmpath/RESC0402X15N.dra
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "TSW-110-XX-YY-D"
+\d (00:00:04) Design opened: D:/Projects/CadenceAllegro/CIS/psmpath/TSW-110-XX-YY-D.dra
 \i (00:00:05) trapsize 61335
 \i (00:00:05) trapsize 68107
 \i (00:00:05) trapsize 62763
 \i (00:00:05) trapsize 61335
 \i (00:00:05) trapsize 61335
 \t (00:00:05) Loading NV GPU Plugin
-\i (00:00:05) trapsize 20384
-\i (00:00:07) zoom out 1 
-\t (00:00:07) [11:29:05.458712] Periodic Lic check successful
-[11:29:05.983000] Feature usage summary:
+\i (00:00:06) exit 
+\t (00:00:06) [12:10:40.189000] Periodic Lic check successful
+[12:10:40.189000] Feature usage summary:
 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 13.7435 -17.2404
-\i (00:00:07) trapsize 33267
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 39.7196 55.6875
-\i (00:00:08) trapsize 33267
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 3.7917 -14.1723
-\i (00:00:08) trapsize 16633
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 3.7917 -14.1722
-\i (00:00:08) trapsize 8317
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 3.7917 -14.1722
-\i (00:00:08) trapsize 4158
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -1.6141 1.2968
-\i (00:00:09) trapsize 2079
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -2.2794 0.9226
-\i (00:00:09) trapsize 1040
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -2.5496 0.8810
-\i (00:00:09) trapsize 520
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in -0.1793 0.4028
-\i (00:00:09) trapsize 260
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out -0.2677 0.3405
-\i (00:00:11) trapsize 520
-\i (00:00:18) exit 
-\t (00:00:19) Lic Summary:
-[11:29:17.170000] Cdslmd servers:
-[11:29:17.170000] Feature usage summary:
+\t (00:00:06) Lic Summary:
+[12:10:40.376000] Cdslmd servers:
+[12:10:40.376000] Feature usage summary:
 
-\t (00:00:19)     Journal end - Wed Feb 19 11:29:17 2025
+\t (00:00:06)     Journal end - Mon Feb 24 12:10:40 2025
